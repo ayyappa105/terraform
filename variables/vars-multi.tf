@@ -15,6 +15,7 @@ output "var_multi_ops" {
 }
 
 variable "os" {}
+
 output "os_flavour" {
   value = var.os_flavour
 }
