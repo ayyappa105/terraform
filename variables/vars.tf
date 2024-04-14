@@ -4,8 +4,8 @@ variable "sample" {
 
 variable "Vars_multi" {
   default = {
-    tool="terraform"
-    platform="IACC"
-    OS="Infra"
+    tool = "terraform"
+    platform = "IACC"
+    OS = "Infra"
   }
 }
