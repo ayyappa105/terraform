@@ -13,3 +13,8 @@ output "multi_var" {
 output "var_multi_ops" {
   value = "Now a days ${var.Vars_multi["tool"]} is used to for ${var.Vars_multi["platform"]} to provison the ${var.Vars_multi["OS"]}"
 }
+
+variable "os" {}
+output "os_flavour" {
+  variable = var.os_flavour
+}
