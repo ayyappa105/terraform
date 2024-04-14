@@ -1,7 +1,7 @@
 variable "multi" {
   default = [
-    "IAC"
-    "terraform"
+    "IAC",
+    "terraform",
     "Infra"
   ]
 }
