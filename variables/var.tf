@@ -1,5 +1,5 @@
 variable "sample" {
-    default = terraform
+    default = "terraform"
 }
 
 output "sample_op" {
