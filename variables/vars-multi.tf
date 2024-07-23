@@ -17,5 +17,5 @@ output "var_multi_ops" {
 variable "os" {}
 
 output "os_flavour_name" {
-  value = var.os
+  value = var.os.0
 }
